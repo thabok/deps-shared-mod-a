@@ -4,7 +4,6 @@ from conan.tools.files import copy
 
 class MyPackage(ConanFile):
     name = "shared_module_a"
-    version = "1.0.1"
     license = "MIT"
     url = "https://github.com/thabok/deps-shared-mod-a"
     description = "Conan package for Shared Module A"
